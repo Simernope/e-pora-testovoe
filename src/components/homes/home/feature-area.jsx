@@ -4,27 +4,26 @@ const feature_content = [
   {
     id: 1,
     icon: "fi fi-rr-paper-plane",
-    title: "Online Courses",
-    des: "Interactively provide access world class materials for unique catalysts for change my ocardinat.",
+    title: "Online Learning",
+    des: "Access high-quality educational resources interactively and be a catalyst for personal growth.",
   },
   {
     id: 2,
     icon: "fi fi-rr-user",
-    title: "Expert Trainer",
-    des: "Interactively provide access world class materials for unique catalysts for change my ocardinat.",
+    title: "Experienced Instructors",
+    des: "Learn from world-class experts who are passionate about helping you succeed.",
   },
-
   {
     id: 3,
     icon: "fi fi-rr-document",
-    title: "Get Certificate",
-    des: "Interactively provide access world class materials for unique catalysts for change my ocardinat.",
+    title: "Earn Certificates",
+    des: "Get recognized for your achievements with certificates upon course completion.",
   },
   {
     id: 4,
     icon: "fi fi-rr-calendar",
-    title: "Life Time Access",
-    des: "Interactively provide access world class materials for unique catalysts for change my ocardinat.",
+    title: "Lifetime Access",
+    des: "Enjoy lifetime access to course materials and updates to support your ongoing learning journey.",
   },
 ];
 

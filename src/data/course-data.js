@@ -1,6 +1,6 @@
 const course_data = [
     {
-        id: 1, 
+        id: 1,
         img: "/assets/img/course/course-thumb-01.jpg",
         icon: "/assets/img/icon/course-avata-01.png",
         title: "The Complete 2022 Web Development Camp",
@@ -11,9 +11,10 @@ const course_data = [
         course_link: "/course-details",
         course_name: "Development",
         course_price: "29.99",
+        description: "Join our comprehensive 2022 Web Development Camp and embark on a journey to become a skilled web developer. With 35 in-depth classes, you'll master the art of web development, from front-end to back-end. Gain hands-on experience and build real-world projects, all while learning from industry experts. Don't miss this opportunity to kickstart your career in web development!"
     },
     {
-        id: 2, 
+        id: 2,
         img: "/assets/img/course/course-thumb-02.jpg",
         icon: "/assets/img/icon/course-avata-02.png",
         title: "Complete Web Design from Figma to Webflow",
@@ -24,9 +25,10 @@ const course_data = [
         course_link: "/course-details",
         course_name: "Development",
         course_price: "30.00",
+        description: "Take your web design skills to the next level with our course, 'Complete Web Design from Figma to Webflow.' In 40 comprehensive classes, you'll learn the art of web design from start to finish. From creating stunning UI/UX designs in Figma to transforming them into functional websites with Webflow, this course covers it all. Join us and become a proficient web designer!"
     },
     {
-        id: 3, 
+        id: 3,
         img: "/assets/img/course/course-thumb-03.jpg",
         icon: "/assets/img/icon/course-avata-03.png",
         title: "SEO: Structured Data Markup for Web Masters",
@@ -37,10 +39,10 @@ const course_data = [
         course_link: "/course-details",
         course_name: "Development",
         course_price: "25.00",
+        description: "Enhance your web mastery with our SEO course, 'Structured Data Markup for Web Masters.' With 30 engaging classes, you'll dive deep into the world of SEO and structured data. Learn how to optimize websites for search engines, increase organic traffic, and boost your online presence. Join us on this journey to become an SEO expert!"
     },
-  
     {
-        id: 4, 
+        id: 4,
         img: "/assets/img/course/course-thumb-04.jpg",
         icon: "/assets/img/icon/course-avata-04.png",
         title: "Complete Web Design from Figma Freelancing",
@@ -51,9 +53,10 @@ const course_data = [
         course_link: "/course-details",
         course_name: "Development",
         course_price: "20.00",
+        description: "Are you ready to turn your web design skills into a freelance career? Join our 'Complete Web Design from Figma Freelancing' course with 28 informative classes. Learn how to design websites in Figma and take on freelance projects with confidence. Start earning as a freelance web designer today!"
     },
     {
-        id: 5, 
+        id: 5,
         img: "/assets/img/course/course-thumb-05.jpg",
         icon: "/assets/img/icon/course-avata-05.png",
         title: "Dreamweaver - Coding your first website using",
@@ -64,9 +67,10 @@ const course_data = [
         course_link: "/course-details",
         course_name: "Development",
         course_price: "20.00",
+        description: "Learn the art of web coding with Dreamweaver in our course, 'Coding your first website using Dreamweaver.' With 28 comprehensive classes, you'll discover how to create your first website from scratch. Master the tools and techniques needed to bring your web development ideas to life!"
     },
     {
-        id: 6, 
+        id: 6,
         img: "/assets/img/course/course-thumb-06.jpg",
         icon: "/assets/img/icon/course-avata-06.png",
         title: "How to Write Great Web Content - Better Search!",
@@ -77,7 +81,36 @@ const course_data = [
         course_link: "/course-details",
         course_name: "Development",
         course_price: "20.00",
+        description: "Unlock the secrets of writing great web content that ranks higher in search results! Join our course, 'How to Write Great Web Content - Better Search!' With 28 informative classes, you'll learn the art of creating compelling content that not only engages your audience but also improves your website's visibility in search engines. Start optimizing your web content today!"
+    },
+    {
+        id: 7,
+        img: "/assets/img/course/course-thumb-01.jpg",
+        icon: "/assets/img/icon/course-avata-01.png",
+        title: "Mastering E-commerce: Selling Online Success",
+        cls_text: "45 Classes",
+        st_text: "500 Students",
+        start_text: "4.8",
+        course_title: "E-commerce",
+        course_link: "/course-details",
+        course_name: "Business",
+        course_price: "39.99",
+        description: "Join our 'Mastering E-commerce: Selling Online Success' course and unlock the secrets to becoming a successful online entrepreneur. With 45 comprehensive classes, you'll learn the ins and outs of e-commerce, from product sourcing and online store setup to digital marketing and customer service. Start your journey to e-commerce mastery today!"
+    },
+    {
+        id: 8,
+        img: "/assets/img/course/course-thumb-02.jpg",
+        icon: "/assets/img/icon/course-avata-02.png",
+        title: "Machine Learning Fundamentals: AI for Everyone",
+        cls_text: "50 Classes",
+        st_text: "600 Students",
+        start_text: "4.9",
+        course_title: "AI",
+        course_link: "/course-details",
+        course_name: "Technology",
+        course_price: "49.99",
+        description: "Dive into the exciting world of artificial intelligence and machine learning with our 'Machine Learning Fundamentals: AI for Everyone' course. With 50 in-depth classes, you'll gain a solid understanding of machine learning concepts, algorithms, and practical applications. Join us and become part of the AI revolution!"
     }
-  
+
 ]
 export default course_data

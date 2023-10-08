@@ -4,20 +4,19 @@ import React from "react";
 const choose_data = {
   bg_img: "/assets/img/bg/choose-img-01.jpg",
   experiences_years: "23",
-  title: "Why Choose Us",
+  title: "Why Opt for Us",
   sub_title: (
-    <>
-      Why You Choose Our
-      <br />
-      E-Pora Online learning
-    </>
+      <>
+        Reasons to Select Our
+        <br />
+        E-Pora Online Learning Platform
+      </>
   ),
-  des: 'Dramatically supply transparent deliverables before & can backward comp internal or "organic" sources.',
-
+  des: 'Efficiently provide clear outcomes and have the ability to support internal or "natural" resources.',
   choose_list: [
-    { title: "Increasing Your Learning Skills" },
-    { title: "High Quality Video & Audio Classes" },
-    { title: "Finish Your Course, Get Certificate" },
+    { title: "Enhancing Your Learning Abilities" },
+    { title: "Access to High-Quality Video & Audio Classes" },
+    { title: "Completion of Courses with Certification" },
   ],
 };
 

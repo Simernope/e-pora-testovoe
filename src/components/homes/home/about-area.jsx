@@ -22,14 +22,15 @@ const shape_img = [
 
 // about info
 const about_info = {
-    img_1: "/assets/img/about/about-img.png",
-    img_2: "/assets/img/about/about-shape-01.png",
-    img_3: "/assets/img/about/about-shape-02.png",
-    about_title: "About Our Courses",
-    sub_title:"Explore Thousands of Creative Classes.",
-    des: <>Dramatically supply transparent deliverables beforese backward comp internal or "organic" sources. Comp  transparent leverage other.</>,
-    about_btn: "Read More"
-}
+  img_1: "/assets/img/about/about-img.png",
+  img_2: "/assets/img/about/about-shape-01.png",
+  img_3: "/assets/img/about/about-shape-02.png",
+  about_title: "Our Educational Mission",
+  sub_title: "Discover a World of Learning Opportunities.",
+  des: <>Efficiently provide clear outcomes prior to engaging internal or "natural" resources. Expertly utilize other resources.</>,
+  about_btn: "Learn More"
+};
+
 
 const {img_1, img_2, img_3, about_title, sub_title, des, about_btn} = about_info
 
