@@ -4,42 +4,49 @@
 
 ## Обязательная часть
 
-1. **Замена текста:** Текст на главной странице и странице `course-details` был заменен с использованием ChatGPT и адаптирован.
-    Было/Стало
-    ![image](https://github.com/Simernope/e-pora-testovoe/assets/73115375/fa2a24b7-3e98-4092-ba7a-06a0b27b1266)
-    ![image](https://github.com/Simernope/e-pora-testovoe/assets/73115375/51a84944-122e-44b4-a748-4b36d6107d0d)
-    Остальные экраны также изменены 
+1. **Замена текста:** Текст на главной странице и странице `course-details` был заменен с использованием ChatGPT и адаптирован. Остальные экраны также были изменены.
+
+   ![Главная страница](https://github.com/Simernope/e-pora-testovoe/assets/73115375/fa2a24b7-3e98-4092-ba7a-06a0b27b1266)
+
+   ![Страница course-details](https://github.com/Simernope/e-pora-testovoe/assets/73115375/51a84944-122e-44b4-a748-4b36d6107d0d)
 
 2. **Заполнение карточек:** Добавил два новых курса. Текст на них также сгенерирован с помощью ChatGPT.
-![image](https://github.com/Simernope/e-pora-testovoe/assets/73115375/804964e7-b0cd-4c7c-a0ff-a491a259a320)
-Новые карточки (картинки от 1 и 2 объекта)
-![image](https://github.com/Simernope/e-pora-testovoe/assets/73115375/29e5b415-16d9-4615-a2e3-a1582e355b83)
 
-3. **Изменение основных цветов сайта:** Основные цвета сайта были изменены согласно тз.
-   Предыдущие цвета закомментированы 
-![image](https://github.com/Simernope/e-pora-testovoe/assets/73115375/5cb2d12d-4a91-4ce0-b58f-93428ce09438)
+   ![Новые карточки](https://github.com/Simernope/e-pora-testovoe/assets/73115375/804964e7-b0cd-4c7c-a0ff-a491a259a320)
 
+   ![Картинки от 1 и 2 объекта](https://github.com/Simernope/e-pora-testovoe/assets/73115375/29e5b415-16d9-4615-a2e3-a1582e355b83)
+
+3. **Изменение основных цветов сайта:** Основные цвета сайта были изменены согласно ТЗ. Предыдущие цвета закомментированы.
+
+   ![Изменение цветов](https://github.com/Simernope/e-pora-testovoe/assets/73115375/5cb2d12d-4a91-4ce0-b58f-93428ce09438)
 
 ## Опциональная часть
 
 1. **Server Side Rendering (SSR):** Реализован серверный рендеринг для каждой страницы курса.
-![image](https://github.com/Simernope/e-pora-testovoe/assets/73115375/56794f6d-d49d-4e2c-8ea2-2705550ab771)
-Теперь можно перемящаться на каждую страницу курса
-2. **Поля description** Добавил поля description каждому курсу, чтобы динамически отображать разные данные для каждого курса.
-![image](https://github.com/Simernope/e-pora-testovoe/assets/73115375/f74a25e1-816f-43aa-a730-27f4eda3030e)
+
+   ![Серверный рендеринг](https://github.com/Simernope/e-pora-testovoe/assets/73115375/56794f6d-d49d-4e2c-8ea2-2705550ab771)
+
+   Теперь можно перемещаться на каждую страницу курса.
+
+2. **Поля description:** Добавил поля description каждому курсу, чтобы динамически отображать разные данные для каждого курса.
+
+   ![Поля description](https://github.com/Simernope/e-pora-testovoe/assets/73115375/f74a25e1-816f-43aa-a730-27f4eda3030e)
 
 3. **Уникальные URL для курсов:** Для каждого курса добавлен уникальный URL, созданный на основе идентификатора курса (course-details/course/{id}).
 
 4. **API для получения данных о курсах:** Добавлен API метод для получения данных о каждом курсе, который используется на странице `course-details`.
-   ![image](https://github.com/Simernope/e-pora-testovoe/assets/73115375/42e46da3-d9fe-4820-87f6-e1e038f9b432)
 
-5. **Динамическое отображение инструкторов:** Инструкторы курса динамически отображаются на странице `course-details`/
-![image](https://github.com/Simernope/e-pora-testovoe/assets/73115375/6961c410-c5ab-420f-88d6-b8c0a0fc99a7)
+   ![API для получения данных](https://github.com/Simernope/e-pora-testovoe/assets/73115375/42e46da3-d9fe-4820-87f6-e1e038f9b432)
+
+5. **Динамическое отображение инструкторов:** Инструкторы курса динамически отображаются на странице `course-details`.
+
+   ![Инструкторы](https://github.com/Simernope/e-pora-testovoe/assets/73115375/6961c410-c5ab-420f-88d6-b8c0a0fc99a7)
 
 ## Дополнительная информация
 
 1. **Попытка getStaticProps:** Попытка использовать `getStaticProps` для главной страницы не удалась.
-![image](https://github.com/Simernope/e-pora-testovoe/assets/73115375/2351c081-e9e3-480f-adf8-c552c9c3ee60)
+
+   ![Попытка getStaticProps](https://github.com/Simernope/e-pora-testovoe/assets/73115375/2351c081-e9e3-480f-adf8-c552c9c3ee60)
 
 ## Затраченное время
 
@@ -49,12 +56,16 @@
 
 Чтобы запустить проект, выполните следующие шаги:
 
-1. Клонируйте репозиторий
+1. Клонируйте репозиторий.
 
-2. Перейдите в папку проекта
+2. Перейдите в папку проекта.
 
-3. Установите зависимости: `npm install` или `yarn install`
+3. Установите зависимости: `npm install` или `yarn install`.
 
-4. Запустите проект: `npm run dev`
+4. Запустите проект: `npm run dev`.
 
-5. Откройте браузер и перейдите по адресу `http://localhost:3000`
+5. Откройте браузер и перейдите по
+
+ адресу `http://localhost:3000`.
+
+
